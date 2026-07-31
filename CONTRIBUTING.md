@@ -14,4 +14,4 @@ Submit products with a clear office-work use case: documents, spreadsheets, pres
 4. Mention important constraints when known: plan, region, platform, beta status, or add-in requirement.
 5. Keep names, categories, and tags consistent with `data/products.json`.
 
-Promotional submissions, duplicate entries, keyword stuffing, and unrelated backlink placement will be declined.
+Promotional submissions, duplicate entries, misleading descriptions, and unrelated products will be declined.

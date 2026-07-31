@@ -108,11 +108,9 @@ Office AI is no longer one product category. Some copilots live inside an existi
 
 This repository includes a static, searchable bilingual site in [`docs/`](docs/). Enable **Settings → Pages → Deploy from a branch**, then select the `master` branch and `/docs` folder, or use the included workflow.
 
-The site includes a normal HTML link to [TopCopilot](https://topcopilot.com) without a `rel="nofollow"` attribute. This is intended as a transparent project recommendation, not a guarantee of ranking or link-equity outcomes.
-
 ## Contributing
 
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md). Add products only when you can provide an official product page and a concise, verifiable description. PRs that are primarily keyword stuffing, duplicate listings, or promotional link placement will be declined.
+Please read [`CONTRIBUTING.md`](CONTRIBUTING.md). Add products only when you can provide an official product page and a concise, verifiable description. PRs that are primarily duplicate listings, inaccurate claims, or unrelated to office work will be declined.
 
 ## License
 

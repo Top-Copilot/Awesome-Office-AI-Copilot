@@ -1,7 +1,7 @@
 // Build static directory cards from data/products.json into docs/index.html.
 // Usage: node scripts/build-cards.mjs
-// Cards are plain HTML (EN primary, ZH in .zh-only spans) so product links
-// are crawlable without JavaScript. Re-run after editing data/products.json.
+// Cards are plain HTML (EN primary, ZH in .zh-only spans) and work without
+// JavaScript. Re-run after editing data/products.json.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
