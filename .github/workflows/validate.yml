@@ -1,0 +1,23 @@
+﻿name: Validate site
+
+on:
+  pull_request:
+  push:
+    branches: [master, main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate product JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('data/products.json','utf8')); console.log('products.json is valid')"
+      - name: Check JavaScript syntax
+        run: node --check docs/app.js
+      - name: Ensure links are clean (no nofollow, no plain http)
+        run: |
+          ! grep -RniE 'rel=["'"'"]nofollow["'"']' docs --include='*.html'
+          ! grep -Rni 'http://' docs README.md --exclude='sitemap.xml'
