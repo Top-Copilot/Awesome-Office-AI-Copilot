@@ -80,6 +80,7 @@ Office AI is no longer one product category. Some copilots live inside an existi
 | [Fathom](https://www.fathom.ai/) | Sales and customer conversations | Video meetings and CRM workflows | Meeting recording, summaries, and follow-up support. |
 | [Read AI](https://www.read.ai/) | Meeting intelligence | Meetings, email, and calendar context | Summaries and engagement insights across communication workflows. |
 | [Granola](https://www.granola.ai/) | Lightweight personal meeting notes | Desktop meeting companion | Note-taking that augments your own meeting context rather than replacing the call. |
+| [AI Group Call](https://aigroupcall.app) | - | - | You set a goal and two to eight AI voices run a round-table call with you: drop-ins, barge-in, and a written recap. |
 
 ## Quick comparison / 快速比较
 
